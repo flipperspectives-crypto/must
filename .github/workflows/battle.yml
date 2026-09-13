@@ -1,0 +1,16 @@
+name: battle
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  battle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Battle test
+        run: python3 tests/battle.py

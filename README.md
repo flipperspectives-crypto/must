@@ -1,5 +1,7 @@
 # must
 
+[![battle](https://github.com/flipperspectives-crypto/must/actions/workflows/battle.yml/badge.svg)](https://github.com/flipperspectives-crypto/must/actions/workflows/battle.yml)
+
 A requirement is a contract. Once frozen, nobody — including the coding agent — may rewrite it. They may only attach **evidence**, and evidence is a command that ran just now.
 
 ## Five minutes
